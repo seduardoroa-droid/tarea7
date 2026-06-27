@@ -1,0 +1,19 @@
+POST http://localhost:3000/reportes
+Content-Type: application/json
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+### prueba ruta GET
+GET http://localhost:3000/reportes
+
+### Otro reporte POST
+POST http://localhost:3000/reportes
+Content-Type: application/json
+
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
